@@ -151,7 +151,7 @@
 
 .add-product__field input,
 .add-product__field textarea {
-    color: #3c3c3c;
+    color: var(--color-ivory);
 }
 
 .add-product__field input,
@@ -169,7 +169,7 @@
 
 .add-product__field input::placeholder,
 .add-product__field textarea::placeholder {
-    color: rgba(113, 113, 113, 0.633);
+    color: rgba(243, 236, 223, 0.68);
 }
 
 .add-product__field input:focus,
@@ -181,7 +181,7 @@
 }
 
 .add-product__field select {
-    color: rgba(83, 83, 83, 0.752);
+    color: var(--color-ivory);
 
     cursor: pointer;
 }
