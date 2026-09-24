@@ -69,7 +69,15 @@ function HomePage() {
             <option value="price_asc">Цена: по возрастанию</option>
             <option value="price_desc">Цена: по убыванию</option>
           </select>
-          </div></section>
+          </div>
+          <div className="car-filters__scroll-hint" aria-hidden="true">
+            <span className="car-filters__scroll-arrows">
+              <i />
+              <i />
+            </span>
+            <span>Прокрутите вниз</span>
+          </div>
+        </section>
 
         {loading ? (
           <p>Загрузка...</p>
